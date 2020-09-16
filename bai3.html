@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let cons=0;
+    let fib="0,1,"
+    let number =+prompt('nhap so');
+    let i;
+    for (i=2;i<number;i++){
+        fib+= a+b+","
+        cons= a;
+        a= b;
+        b= cons+a ;
+    }
+    document.write(fib)
+</script>
+
+</body>
+</html>
